@@ -1,0 +1,10 @@
+# Hapus file .gitignore yang lama (jika ada) dan buat baru dengan "venv/"
+echo "venv/" > .gitignore
+
+# Tambahkan aturan-aturan lain ke file itu
+echo "dataset/" >> .gitignore
+echo "known_faces/" >> .gitignore
+echo "training_data/" >> .gitignore
+echo "yolo_models/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
